@@ -2,6 +2,18 @@
 {
     internal class Program
     {
+        static void PrintShape(int value)
+
+        {
+            int sum = 0;
+            System.Console.WriteLine("enter the number");
+            while (value > 0)
+            {
+                sum += value % 10;
+                value /= 10;
+            }
+            System.Console.WriteLine(sum);
+        }
         static void Main(string[] args)
         {
             #region 19- . Write a program that prints an identity matrix using for loop, in other words takes a value n from the user and shows the identity table of size n * n.
@@ -257,6 +269,11 @@
 
 
 
+            #endregion
+
+
+            #region 02 	Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
+            //  PrintShape(155);
             #endregion
 
         }
