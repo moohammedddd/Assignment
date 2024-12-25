@@ -68,6 +68,30 @@
             #endregion
 
 
+            #region 23- Write a program in C# Sharp to find maximum and minimum element in an array
+            // first with max value 
+            // int[] Degree = {1,0, 2,9, 3,4,8,1};
+            // int maxValue = Degree[0];
+            // for (int i = 0; i < Degree.Length; i++)
+            // {
+            //     if (maxValue < Degree[i])
+            //     {
+            //         maxValue = Degree[i];
+            //     }
+            // }
+            //    System.Console.WriteLine(maxValue);
+
+            // int MinValue = Degree[0];
+            // for (int i = 0; i < Degree.Length; i++)
+            // {
+            //     if (Degree[0] > Degree[i])
+            //     {
+            //         MinValue = Degree[i];
+            //     }
+            // }
+            //     System.Console.WriteLine(MinValue);
+            #endregion
+
 
         }
     }
