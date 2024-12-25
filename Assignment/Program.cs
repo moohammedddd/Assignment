@@ -14,6 +14,20 @@
             }
             System.Console.WriteLine(sum);
         }
+
+        static bool IsPrime(int number)
+        {
+            if (number <= 1)
+            {
+                return false;
+            }
+            for (int i = 2; i <= Math.Sqrt(number); i++)
+            {
+                if (number % i == 0) return false;
+            }
+            return true;
+        }
+
         static void Main(string[] args)
         {
             #region 19- . Write a program that prints an identity matrix using for loop, in other words takes a value n from the user and shows the identity table of size n * n.
@@ -274,6 +288,11 @@
 
             #region 02 	Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
             //  PrintShape(155);
+            #endregion
+
+
+            #region 03  Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not .
+            // System.Console.WriteLine(IsPrime(5));
             #endregion
 
         }
