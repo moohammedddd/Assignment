@@ -25,6 +25,17 @@
 
             #endregion
 
+            #region  20- Write a program in C# Sharp to find the sum of all elements of the array
+            // int result= 0 ;
+            // int [] GetSum = {1,2,3,4,5,6};
+            // for (int i = 0; i <GetSum.Length; i++)
+            // {
+            //     result += GetSum[i];
+            // }
+            // System.Console.WriteLine(result);
+            #endregion
+
+
         }
     }
 }
