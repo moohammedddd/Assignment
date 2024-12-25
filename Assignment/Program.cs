@@ -47,7 +47,26 @@
             //     }
             #endregion
 
-            
+            #region 22  Write a program in C# Sharp to count the frequency of each element of an array.
+            // int [] Number = {1,2,3,3,4,4,2,26,6,6,6,6,6};
+
+            // for (int i = 0; i < Number.Length; i++)
+            // {
+            //     int count = 1;
+            //   for (int j = i + 1; j < Number.Length; j++)
+            //   {
+            //     if (Number[i] == Number[j])
+            //     {
+            //         count++;
+            //     }  
+            //   }
+            //      if (i == 0 || Number[i] != Number[i - 1])  // not understand 
+            //         {
+            //             Console.WriteLine($"{Number[i]} {count}");
+            //         }
+            //     }
+            #endregion
+
 
 
         }
