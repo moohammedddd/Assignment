@@ -233,6 +233,32 @@
             // }
             #endregion
 
+
+            // FUNCTIONS 
+            #region 01 Explain the difference between passing (Value type parameters) by value and by reference then write a suitable c# example                
+            /*  in value type parmaters it divided two type
+              01 by value 
+              02 by reference
+              in passing by value i pass the copy of data not the address of data 
+              simple example 
+              ------------------------------------
+              if i have value in main function int 5 = 5 ; int y = 10;
+              in function tha i passed the value to change the value of x and y to be 10 ,30
+              it will be changed but in the function not in main function becused i passed the copy of data 
+              when i change the value of data it be changed in function not in main function 
+              ---------------------------------------------------------
+              but in reference type if i passed the reference to function that have access to main value of reference 
+              if i changed the value of x , y to be 20 ,30
+              it will be changed in function and main function because i passed the address not copy of data 
+
+             */
+
+
+
+
+
+            #endregion
+
         }
     }
 }
