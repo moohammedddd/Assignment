@@ -35,6 +35,20 @@
             // System.Console.WriteLine(result);
             #endregion
 
+            #region 21  Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+            // int [] First = {1, 2, 3,4};
+            // int [] Second = {5,6,7};
+            // int [] Merged = new  int [First.Length + Second.Length]; 
+            // Array.ConstrainedCopy(First, 0, Merged,0 ,First.Length);
+            // Array.ConstrainedCopy(Second, 0, Merged, First.Length ,Second.Length);
+            //     foreach (int i in Merged)
+            //     {
+            //         System.Console.WriteLine(i);
+            //     }
+            #endregion
+
+            
+
 
         }
     }
