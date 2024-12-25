@@ -27,6 +27,15 @@
             }
             return true;
         }
+        static void GerFraction(int number)
+        {
+            int result = 1;
+            for (int i = 1; i <= number; i++)
+            {
+                result *= i;
+            }
+            System.Console.WriteLine(result);
+        }
 
         static void Main(string[] args)
         {
@@ -293,6 +302,11 @@
 
             #region 03  Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not .
             // System.Console.WriteLine(IsPrime(5));
+            #endregion
+
+
+            #region 4-   Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
+            // GerFraction(5);
             #endregion
 
         }
