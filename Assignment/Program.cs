@@ -192,6 +192,39 @@
             //     }
             #endregion
 
+
+            #region 27 27- Write a program to create two multidimensional arrays of same size. Accept value from user and store them in first array. Now copy all the elements of first array on second array and print second array.
+
+
+            //  string [,] Marks02 = new string[2, 2];
+            //   string [,] Marks = new string[2, 2] ;
+            //   for (int i = 0; i < Marks.GetLength(0); i++)
+            //   { 
+            //     for (int j = 0; j < Marks.GetLength(1); j++)
+            //     {
+            //         System.Console.WriteLine($"enter the data of {i+1}");
+            //         Marks[i,j] = Console.ReadLine() ;
+            //     }
+            //     }
+
+            //        for (int l = 0; l < Marks02.GetLength(0);l++)
+            //      {
+            //          for (int m = 0; m < Marks02.GetLength(1); m++)
+            //          {
+            //                 Marks02[l,m] = Marks[l,m];
+            //         }
+            //   }
+
+            //     System.Console.WriteLine("the copied data is ");
+            //   for (int k = 0; k < Marks02.GetLength(0); k++)
+            //   {
+            //     for (int p = 0; p < Marks02.GetLength(1); p++)
+            //     {
+            //         System.Console.WriteLine(Marks02[k,p]);
+            //     }
+            //   }
+            #endregion
+
         }
     }
 }
