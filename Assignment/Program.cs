@@ -92,6 +92,36 @@
             //     System.Console.WriteLine(MinValue);
             #endregion
 
+            #region 24 4- Write a program in C# Sharp to find the second largest element in an array
+            // int[] Degree = {1, 2, 3,4,8,9,15,64,60};
+            // int maxValue = Degree[0];
+            // int secound = Degree[0];
+            // for (int i= 1; i < Degree.Length; i++)
+            // {
+            //     if (maxValue < Degree[i])
+            //     {
+            //         maxValue = Degree[i];
+
+            //     }
+            // }
+            // System.Console.WriteLine(maxValue);
+
+            // for (int j = 0; j < Degree.Length; j++)
+            // {
+            //     if (secound < Degree[j] && Degree[j] < maxValue)
+            //     {
+            //         secound = Degree[j];
+            //     }
+
+            // }
+            // System.Console.WriteLine(secound);
+
+
+
+
+
+            #endregion
+
 
         }
     }
