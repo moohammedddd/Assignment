@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System.Text;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -35,6 +37,12 @@
                 result *= i;
             }
             System.Console.WriteLine(result);
+        }
+        static void change(StringBuilder text, int Address, char line)
+        {
+            text[Address] = line;
+            System.Console.WriteLine(text);
+            // return text;
         }
 
         static void Main(string[] args)
@@ -307,6 +315,13 @@
 
             #region 4-   Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
             // GerFraction(5);
+            #endregion
+
+            #region  5- Create a function named "ChangeChar" to modify a letter in a  certain position (0 based) of a string, replacing it with a different letter 
+            // StringBuilder text = new StringBuilder("mohamed");
+            // change(text, 0, 'l');
+
+
             #endregion
 
         }
