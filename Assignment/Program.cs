@@ -122,6 +122,51 @@
 
             #endregion
 
+            #region 25-. Consider an Array of Integer values with size N, having values as in this Example
+
+
+
+            //  int [] Marks = new int [5];
+            //   for (int x = 0; x < Marks.Length; x++)
+            //         {
+            //             System.Console.WriteLine($"enter the data {x+1}");
+            //             Marks[x] = int.Parse(Console.ReadLine()); // push the data int array 
+
+            //         }       
+
+            //     foreach (int  item in Marks)
+            //     {
+            //         System.Console.WriteLine(item);
+            //     }   
+            //    // int [] Marks = {1,2,8,3,5,1,18,5,5,8,2};
+            //     int [] Distance = new int [Marks.Length];
+            //     int repeted = Marks[0];
+            //     for (int i = 0; i < Marks.Length; i++)
+            //     {
+            //         for (int j = i+1; j < Marks.Length; j++)
+            //         {
+            //                 if (Marks[j] == Marks[i])
+            //             {
+            //                     repeted = Marks[j];
+            //                     int dis = j - i;
+            //                     Distance[i] = dis;   
+            //             }
+
+            //         }
+
+
+            //     }
+            //     int LongDistance = Distance[0];
+            //     for (int i = 0; i < Distance.Length; i++)
+            //     {
+            //         if (LongDistance < Distance[i])
+            //         {
+            //             LongDistance = Distance[i];
+            //         }
+            //     }
+
+            //     System.Console.WriteLine($" The Bigist Distance is  {LongDistance}");
+            #endregion
 
         }
     }
