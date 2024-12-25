@@ -168,6 +168,30 @@
             //     System.Console.WriteLine($" The Bigist Distance is  {LongDistance}");
             #endregion
 
+            #region 26- Given a list of space separated words, reverse the order of the words.
+            //  string [,] Marks = new string[2, 1] ;
+            //   for (int i = 0; i < Marks.GetLength(0); i++)
+            //   { 
+            //     for (int j = 0; j < Marks.GetLength(1); j++)
+            //     {
+            //         System.Console.WriteLine($"enter the data of {i+1}");
+            //         Marks[i,j] = Console.ReadLine() ;
+            //     }
+
+
+            //   }
+
+            //     System.Console.WriteLine("your data is");
+            //   for (int l = Marks.GetLength(0)-1; l>= 0; l--)
+            //      {
+            //          for (int m = 0; m < Marks.GetLength(1); m++)
+            //          {
+            //         System.Console.Write(Marks[l,m]);
+            //         }
+            //         System.Console.WriteLine("");
+            //     }
+            #endregion
+
         }
     }
 }
